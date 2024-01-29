@@ -4,5 +4,45 @@
         <name>UD5T1</name>
     </assembly>
     <members>
+        <member name="M:UD5T1.MainPage.CalcularTotal">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:UD5T1.MainPage.TxtCuenta_Completed(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:UD5T1.MainPage.SldPropina_ValueChanged(System.Object,Microsoft.Maui.Controls.ValueChangedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:UD5T1.MainPage.Button_Clicked(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:UD5T1.MainPage.BtnMenos_Clicked(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:UD5T1.MainPage.BtnMas_Clicked(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
     </members>
 </doc>

@@ -35,7 +35,7 @@
                 <Label Grid.Row="1" Grid.Column="0"
                        x:Name="lblTotal"
                        VerticalOptions="CenterAndExpand"
-                       Text="0,00€"
+                       Text="0,00$"
                        HorizontalOptions="Center"
                        TextColor="White"
                        FontAttributes="Bold"
@@ -55,7 +55,7 @@
                            TextColor="White"></Label>
                     
                     <Label x:Name="lblSubtotal"
-                           Text="0,00€"
+                           Text="0,00$"
                            TextColor="White"
                            FontAttributes="Bold"></Label>
                     
@@ -64,7 +64,7 @@
                            TextColor="White"></Label>
                     
                     <Label x:Name="lblPropinaPorPersona"
-                           Text="0,00€"
+                           Text="0,00$"
                            TextColor="White"
                            FontAttributes="Bold"></Label>
                 </VerticalStackLayout>
@@ -82,7 +82,7 @@
                 <RowDefinition Height="25*"></RowDefinition>
                 <RowDefinition Height="25*"></RowDefinition>
             </Grid.RowDefinitions>
-            <Label Text="Importe Cuenta: €"
+            <Label Text="Importe Cuenta: $"
                    TextColor="White"></Label>
             
             <Entry Grid.Row="0" Grid.Column="1"

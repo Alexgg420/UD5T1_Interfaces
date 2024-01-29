@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UD5T1</name>
+    </assembly>
+    <members>
+        <member name="T:UD5T1.MainPage">
+            <summary>
+            La clase MainPage es la página de backend por así decirlo, pues
+            en esta se encuentran las funciones que usará el programa para
+            funcionar correctamente
+            </summary>
+        </member>
+        <member name="F:UD5T1.MainPage.cuenta">
+            <param name="cuenta">
+            Esta es la variable o parámetro que guarda
+            el precio final mostrado a pagar, ya sea de forma conjunta o 
+            individual, con o sin propina
+            </param>
+        </member>
+        <member name="F:UD5T1.MainPage.propina">
+            <param name="propina">
+            Esta es la variable o parámetro que guarda
+            la propina indicada por el cliente, incluso cuando es cero
+            </param>
+        </member>
+        <member name="F:UD5T1.MainPage.personas">
+            <param name="personas">
+            Esta es la variable o parámetro que guarda
+            la cantidad de personas que han participado en la suma total de la
+            cuenta. El mínimo posible es 1 persona
+            </param>
+        </member>
+        <member name="M:UD5T1.MainPage.#ctor">
+            <summary>
+            Este es el constructor de la Clase MainPage.
+            Lo único indicado en este es que se inicie el componente
+            </summary>
+        </member>
+        <member name="M:UD5T1.MainPage.CalcularTotal">
+            <summary>
+            La función Calcular total se encarga de calcular el precio
+            en función de los parámetros indicados, tales como la propina
+            o la cantidad de personas entre las que dividir el total
+            </summary>
+        </member>
+        <member name="M:UD5T1.MainPage.TxtCuenta_Completed(System.Object,System.EventArgs)">
+            <summary>
+            La función TxtCuenta_Completed muestra como texto la cuenta del pedido
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:UD5T1.MainPage.SldPropina_ValueChanged(System.Object,Microsoft.Maui.Controls.ValueChangedEventArgs)">
+            <summary>
+            La función SldPropina_ValueChanged cambia el valor de la propina
+            cuando el usuario lo indica en el programa, arrastrando la barra horizontal
+            para hacer que el valor de la propina cambie hasta la cantidad deseada
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:UD5T1.MainPage.Button_Clicked(System.Object,System.EventArgs)">
+            <summary>
+            La función Button_Clicked cambia el valor de la propina
+            cuando el usuario pulsa uno de los tres botones con porcentajes que indican la cantidad
+            de propina que desea añadir el cliente
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:UD5T1.MainPage.BtnMenos_Clicked(System.Object,System.EventArgs)">
+            <summary>
+            La función BtnMenos_Clicked disminuye la cantidad de personas
+            entre las que dividir el total de la cuenta. El mínimo posible
+            es una persona, por lo tanto no disminuirá a un valor menor a 1
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:UD5T1.MainPage.BtnMas_Clicked(System.Object,System.EventArgs)">
+            <summary>
+            La función BtnMas_Clicked aumenta la cantidad de personas
+            entre las que dividir el total de la cuenta
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+    </members>
+</doc>
