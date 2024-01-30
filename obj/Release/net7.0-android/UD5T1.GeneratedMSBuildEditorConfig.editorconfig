@@ -44,20 +44,20 @@ build_metadata.AdditionalFiles.ManifestResourceName = UD5T1.Resources.Styles.Sty
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/alexg/Desktop/Interfaces_Tareas/UD5T1/html/doxygen.css]
+[C:/Users/alexg/Desktop/Interfaces_Tareas/UD5T1/documentation/html/doxygen.css]
 build_metadata.AdditionalFiles.GenKind = Css
-build_metadata.AdditionalFiles.ManifestResourceName = UD5T1.html.doxygen.css
-build_metadata.AdditionalFiles.TargetPath = html\doxygen.css
-build_metadata.AdditionalFiles.RelativePath = html\doxygen.css
+build_metadata.AdditionalFiles.ManifestResourceName = UD5T1.documentation.html.doxygen.css
+build_metadata.AdditionalFiles.TargetPath = documentation\html\doxygen.css
+build_metadata.AdditionalFiles.RelativePath = documentation\html\doxygen.css
 
-[C:/Users/alexg/Desktop/Interfaces_Tareas/UD5T1/html/search/search.css]
+[C:/Users/alexg/Desktop/Interfaces_Tareas/UD5T1/documentation/html/search/search.css]
 build_metadata.AdditionalFiles.GenKind = Css
-build_metadata.AdditionalFiles.ManifestResourceName = UD5T1.html.search.search.css
-build_metadata.AdditionalFiles.TargetPath = html\search\search.css
-build_metadata.AdditionalFiles.RelativePath = html\search\search.css
+build_metadata.AdditionalFiles.ManifestResourceName = UD5T1.documentation.html.search.search.css
+build_metadata.AdditionalFiles.TargetPath = documentation\html\search\search.css
+build_metadata.AdditionalFiles.RelativePath = documentation\html\search\search.css
 
-[C:/Users/alexg/Desktop/Interfaces_Tareas/UD5T1/html/tabs.css]
+[C:/Users/alexg/Desktop/Interfaces_Tareas/UD5T1/documentation/html/tabs.css]
 build_metadata.AdditionalFiles.GenKind = Css
-build_metadata.AdditionalFiles.ManifestResourceName = UD5T1.html.tabs.css
-build_metadata.AdditionalFiles.TargetPath = html\tabs.css
-build_metadata.AdditionalFiles.RelativePath = html\tabs.css
+build_metadata.AdditionalFiles.ManifestResourceName = UD5T1.documentation.html.tabs.css
+build_metadata.AdditionalFiles.TargetPath = documentation\html\tabs.css
+build_metadata.AdditionalFiles.RelativePath = documentation\html\tabs.css

@@ -1,0 +1,197 @@
+\doxysection{UD5\+T1.\+Main\+Page Class Reference}
+\hypertarget{class_u_d5_t1_1_1_main_page}{}\label{class_u_d5_t1_1_1_main_page}\index{UD5T1.MainPage@{UD5T1.MainPage}}
+
+
+La clase Main\+Page es la página de backend por así decirlo, pues en esta se encuentran las funciones que usará el programa para funcionar correctamente.  
+
+
+Inheritance diagram for UD5\+T1.\+Main\+Page\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_u_d5_t1_1_1_main_page}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_u_d5_t1_1_1_main_page_a89fa4a2021e33210cbadd50b2bef30e5}{Main\+Page}} ()
+\begin{DoxyCompactList}\small\item\em Este es el constructor de la Clase Main\+Page. Lo único indicado en este es que se inicie el componente. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_u_d5_t1_1_1_main_page_a2b3cae120668d54c13b7cc4ec9782ef9}{Calcular\+Total}} ()
+\begin{DoxyCompactList}\small\item\em La función Calcular total se encarga de calcular el precio en función de los parámetros indicados, tales como la propina o la cantidad de personas entre las que dividir el total. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_u_d5_t1_1_1_main_page_a6a5f2dd3e61b1fa86b53d411ec36a8c9}{Txt\+Cuenta\+\_\+\+Completed}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em La función Txt\+Cuenta\+\_\+\+Completed muestra como texto la cuenta del pedido. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_u_d5_t1_1_1_main_page_aa93dfcc8213d4a6426e63760e83d63fb}{Sld\+Propina\+\_\+\+Value\+Changed}} (object sender, Value\+Changed\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em La función Sld\+Propina\+\_\+\+Value\+Changed cambia el valor de la propina cuando el usuario lo indica en el programa, arrastrando la barra horizontal para hacer que el valor de la propina cambie hasta la cantidad deseada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_u_d5_t1_1_1_main_page_ad312a60bb358d74175fedf9e3d390212}{Button\+\_\+\+Clicked}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em La función Button\+\_\+\+Clicked cambia el valor de la propina cuando el usuario pulsa uno de los tres botones con porcentajes que indican la cantidad de propina que desea añadir el cliente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_u_d5_t1_1_1_main_page_adbed63ed1d32aa51df97c16571f6af19}{Btn\+Menos\+\_\+\+Clicked}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em La función Btn\+Menos\+\_\+\+Clicked disminuye la cantidad de personas entre las que dividir el total de la cuenta. El mínimo posible es una persona, por lo tanto no disminuirá a un valor menor a 1. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_u_d5_t1_1_1_main_page_a7bd09b958baec7e6323708fd037f4105}{Btn\+Mas\+\_\+\+Clicked}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em La función Btn\+Mas\+\_\+\+Clicked aumenta la cantidad de personas entre las que dividir el total de la cuenta. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+decimal \mbox{\hyperlink{class_u_d5_t1_1_1_main_page_adaa001520487806e2f7cb6f1d628a152}{cuenta}}
+\item 
+int \mbox{\hyperlink{class_u_d5_t1_1_1_main_page_a9463f4e9a5bb55c3e2e5cad8b5fce1ac}{propina}}
+\item 
+int \mbox{\hyperlink{class_u_d5_t1_1_1_main_page_a571d0a0c3f0a7aebed001db9460a5d85}{personas}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+La clase Main\+Page es la página de backend por así decirlo, pues en esta se encuentran las funciones que usará el programa para funcionar correctamente. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_u_d5_t1_1_1_main_page_a89fa4a2021e33210cbadd50b2bef30e5}\label{class_u_d5_t1_1_1_main_page_a89fa4a2021e33210cbadd50b2bef30e5} 
+\index{UD5T1.MainPage@{UD5T1.MainPage}!MainPage@{MainPage}}
+\index{MainPage@{MainPage}!UD5T1.MainPage@{UD5T1.MainPage}}
+\doxysubsubsection{\texorpdfstring{MainPage()}{MainPage()}}
+{\footnotesize\ttfamily UD5\+T1.\+Main\+Page.\+Main\+Page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Este es el constructor de la Clase Main\+Page. Lo único indicado en este es que se inicie el componente. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_u_d5_t1_1_1_main_page_a7bd09b958baec7e6323708fd037f4105}\label{class_u_d5_t1_1_1_main_page_a7bd09b958baec7e6323708fd037f4105} 
+\index{UD5T1.MainPage@{UD5T1.MainPage}!BtnMas\_Clicked@{BtnMas\_Clicked}}
+\index{BtnMas\_Clicked@{BtnMas\_Clicked}!UD5T1.MainPage@{UD5T1.MainPage}}
+\doxysubsubsection{\texorpdfstring{BtnMas\_Clicked()}{BtnMas\_Clicked()}}
+{\footnotesize\ttfamily void UD5\+T1.\+Main\+Page.\+Btn\+Mas\+\_\+\+Clicked (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+La función Btn\+Mas\+\_\+\+Clicked aumenta la cantidad de personas entre las que dividir el total de la cuenta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & \\
+\hline
+{\em e} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_u_d5_t1_1_1_main_page_adbed63ed1d32aa51df97c16571f6af19}\label{class_u_d5_t1_1_1_main_page_adbed63ed1d32aa51df97c16571f6af19} 
+\index{UD5T1.MainPage@{UD5T1.MainPage}!BtnMenos\_Clicked@{BtnMenos\_Clicked}}
+\index{BtnMenos\_Clicked@{BtnMenos\_Clicked}!UD5T1.MainPage@{UD5T1.MainPage}}
+\doxysubsubsection{\texorpdfstring{BtnMenos\_Clicked()}{BtnMenos\_Clicked()}}
+{\footnotesize\ttfamily void UD5\+T1.\+Main\+Page.\+Btn\+Menos\+\_\+\+Clicked (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+La función Btn\+Menos\+\_\+\+Clicked disminuye la cantidad de personas entre las que dividir el total de la cuenta. El mínimo posible es una persona, por lo tanto no disminuirá a un valor menor a 1. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & \\
+\hline
+{\em e} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_u_d5_t1_1_1_main_page_ad312a60bb358d74175fedf9e3d390212}\label{class_u_d5_t1_1_1_main_page_ad312a60bb358d74175fedf9e3d390212} 
+\index{UD5T1.MainPage@{UD5T1.MainPage}!Button\_Clicked@{Button\_Clicked}}
+\index{Button\_Clicked@{Button\_Clicked}!UD5T1.MainPage@{UD5T1.MainPage}}
+\doxysubsubsection{\texorpdfstring{Button\_Clicked()}{Button\_Clicked()}}
+{\footnotesize\ttfamily void UD5\+T1.\+Main\+Page.\+Button\+\_\+\+Clicked (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+La función Button\+\_\+\+Clicked cambia el valor de la propina cuando el usuario pulsa uno de los tres botones con porcentajes que indican la cantidad de propina que desea añadir el cliente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & \\
+\hline
+{\em e} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_u_d5_t1_1_1_main_page_a2b3cae120668d54c13b7cc4ec9782ef9}\label{class_u_d5_t1_1_1_main_page_a2b3cae120668d54c13b7cc4ec9782ef9} 
+\index{UD5T1.MainPage@{UD5T1.MainPage}!CalcularTotal@{CalcularTotal}}
+\index{CalcularTotal@{CalcularTotal}!UD5T1.MainPage@{UD5T1.MainPage}}
+\doxysubsubsection{\texorpdfstring{CalcularTotal()}{CalcularTotal()}}
+{\footnotesize\ttfamily void UD5\+T1.\+Main\+Page.\+Calcular\+Total (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+La función Calcular total se encarga de calcular el precio en función de los parámetros indicados, tales como la propina o la cantidad de personas entre las que dividir el total. 
+
+\Hypertarget{class_u_d5_t1_1_1_main_page_aa93dfcc8213d4a6426e63760e83d63fb}\label{class_u_d5_t1_1_1_main_page_aa93dfcc8213d4a6426e63760e83d63fb} 
+\index{UD5T1.MainPage@{UD5T1.MainPage}!SldPropina\_ValueChanged@{SldPropina\_ValueChanged}}
+\index{SldPropina\_ValueChanged@{SldPropina\_ValueChanged}!UD5T1.MainPage@{UD5T1.MainPage}}
+\doxysubsubsection{\texorpdfstring{SldPropina\_ValueChanged()}{SldPropina\_ValueChanged()}}
+{\footnotesize\ttfamily void UD5\+T1.\+Main\+Page.\+Sld\+Propina\+\_\+\+Value\+Changed (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Value\+Changed\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+La función Sld\+Propina\+\_\+\+Value\+Changed cambia el valor de la propina cuando el usuario lo indica en el programa, arrastrando la barra horizontal para hacer que el valor de la propina cambie hasta la cantidad deseada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & \\
+\hline
+{\em e} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_u_d5_t1_1_1_main_page_a6a5f2dd3e61b1fa86b53d411ec36a8c9}\label{class_u_d5_t1_1_1_main_page_a6a5f2dd3e61b1fa86b53d411ec36a8c9} 
+\index{UD5T1.MainPage@{UD5T1.MainPage}!TxtCuenta\_Completed@{TxtCuenta\_Completed}}
+\index{TxtCuenta\_Completed@{TxtCuenta\_Completed}!UD5T1.MainPage@{UD5T1.MainPage}}
+\doxysubsubsection{\texorpdfstring{TxtCuenta\_Completed()}{TxtCuenta\_Completed()}}
+{\footnotesize\ttfamily void UD5\+T1.\+Main\+Page.\+Txt\+Cuenta\+\_\+\+Completed (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+La función Txt\+Cuenta\+\_\+\+Completed muestra como texto la cuenta del pedido. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & \\
+\hline
+{\em e} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_u_d5_t1_1_1_main_page_adaa001520487806e2f7cb6f1d628a152}\label{class_u_d5_t1_1_1_main_page_adaa001520487806e2f7cb6f1d628a152} 
+\index{UD5T1.MainPage@{UD5T1.MainPage}!cuenta@{cuenta}}
+\index{cuenta@{cuenta}!UD5T1.MainPage@{UD5T1.MainPage}}
+\doxysubsubsection{\texorpdfstring{cuenta}{cuenta}}
+{\footnotesize\ttfamily decimal UD5\+T1.\+Main\+Page.\+cuenta\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em cuenta} & Esta es la variable o parámetro que guarda el precio final mostrado a pagar, ya sea de forma conjunta o individual, con o sin propina \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_u_d5_t1_1_1_main_page_a571d0a0c3f0a7aebed001db9460a5d85}\label{class_u_d5_t1_1_1_main_page_a571d0a0c3f0a7aebed001db9460a5d85} 
+\index{UD5T1.MainPage@{UD5T1.MainPage}!personas@{personas}}
+\index{personas@{personas}!UD5T1.MainPage@{UD5T1.MainPage}}
+\doxysubsubsection{\texorpdfstring{personas}{personas}}
+{\footnotesize\ttfamily int UD5\+T1.\+Main\+Page.\+personas\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em personas} & Esta es la variable o parámetro que guarda la cantidad de personas que han participado en la suma total de la cuenta. El mínimo posible es 1 persona \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_u_d5_t1_1_1_main_page_a9463f4e9a5bb55c3e2e5cad8b5fce1ac}\label{class_u_d5_t1_1_1_main_page_a9463f4e9a5bb55c3e2e5cad8b5fce1ac} 
+\index{UD5T1.MainPage@{UD5T1.MainPage}!propina@{propina}}
+\index{propina@{propina}!UD5T1.MainPage@{UD5T1.MainPage}}
+\doxysubsubsection{\texorpdfstring{propina}{propina}}
+{\footnotesize\ttfamily int UD5\+T1.\+Main\+Page.\+propina\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em propina} & Esta es la variable o parámetro que guarda la propina indicada por el cliente, incluso cuando es cero \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_main_page_8xaml_8cs}{Main\+Page.\+xaml.\+cs}}\end{DoxyCompactItemize}
